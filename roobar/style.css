@@ -27,16 +27,31 @@ Table of contents
 14. Theme skin [Row 5848] 
 -------------------------------------------------------------------
 */
+/*
+==============================
+COLORS
+==============================
+*/
+:root {
+    --primary-color: #355FFA;
+    --secondary-color: #07EFBF;
+    --light-color: #00a0d1;
+    --dark-color: #00a0d1;
+    --white-color: #00a0d1;
+    --black-color: #00a0d1;
+    --lighter-color: #00a0d1;
+    --darker-color: #00a0d1;
+}
 
 /*
 ==============================
 GLOBAL STYLE
 ==============================
 */
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900,400italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900,400italic);
 
 body, .adv-img p, .caption-bottom p, .adv-circle .caption p, .advs-box p, .list-blog p {
-    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 26px;
     color: #4C4C4C;
