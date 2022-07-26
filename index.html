@@ -10,6 +10,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- 
+favicons
+-->
     <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/favicon//apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/favicon//apple-icon-72x72.png">
@@ -28,6 +31,9 @@
     <meta name="msapplication-TileImage" content="./assets/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+<!-- 
+css
+-->
     <!-- Vendor CSS (Contain Bootstrap, Icon Fonts) -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/icofont.min.css" />
@@ -46,30 +52,32 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
 
-    
+<!-- 
+firebase
+-->
     <script type="module">
-            // Import the functions you need from the SDKs you need
-            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
-            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js";
-            // TODO: Add SDKs for Firebase products that you want to use
-            // https://firebase.google.com/docs/web/setup#available-libraries
-        
-            // Your web app's Firebase configuration
-            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-            const firebaseConfig = {
-            apiKey: "AIzaSyA8c3xJu9G_Y74M_lBxrdIqolH5Zs7Z5Zg",
-            authDomain: "abner-development.firebaseapp.com",
-            projectId: "abner-development",
-            storageBucket: "abner-development.appspot.com",
-            messagingSenderId: "996262872152",
-            appId: "1:996262872152:web:470bd933d2392dc3c0362d",
-            measurementId: "G-BL2MPYMBY7"
-            };
-        
-            // Initialize Firebase
-            const app = initializeApp(firebaseConfig);
-            const analytics = getAnalytics(app);
-        </script>
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+    
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+        apiKey: "AIzaSyA8c3xJu9G_Y74M_lBxrdIqolH5Zs7Z5Zg",
+        authDomain: "abner-development.firebaseapp.com",
+        projectId: "abner-development",
+        storageBucket: "abner-development.appspot.com",
+        messagingSenderId: "996262872152",
+        appId: "1:996262872152:web:470bd933d2392dc3c0362d",
+        measurementId: "G-BL2MPYMBY7"
+        };
+    
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
 
 </head>
 
@@ -78,8 +86,7 @@
     <main class="main-wrapper">
 
 <!-- 
-HEADER & NAVIGATION
-=================================================
+header and navigation
 -->
         <!-- .....:::::: Start Header Section :::::.... -->
         <header class="header-section sticky-header d-none d-lg-block">
@@ -96,6 +103,9 @@ HEADER & NAVIGATION
                         <div class="col-auto">
                             <!-- Start Header Menu -->
                             <ul class="header-nav">
+
+                                <!-- 
+                                    additional sections
                                 <li><a href="#">About Us</a></li>
 
                                 <li class="has-dropdown">
@@ -117,8 +127,11 @@ HEADER & NAVIGATION
                                     </ul>
                                 </li>
                                 <li><a href="#">Blog</a></li>
-
                                 <li><a href="contact.html">Contact</a></li>
+
+                                                                 -->
+
+
                             </ul>
                             <!-- End Header Menu -->
                         </div>
@@ -165,6 +178,8 @@ HEADER & NAVIGATION
                     <!-- Start Mobile Menu Nav -->
                     <div class="offcanvas-menu">
                         <ul>
+                            <!-- 
+                                additional sections
                             <li><a href="#">About Us</a></li>
 
                             <li class="has-dropdown">
@@ -186,8 +201,11 @@ HEADER & NAVIGATION
                                 </ul>
                             </li>
                             <li><a href="#">Blog</a></li>
-
                             <li><a href="contact.html">Contact</a></li>
+
+                                                         -->
+
+
                 </ul>
                     </div> <!-- End Mobile Menu Nav -->
                 </div> <!-- End Mobile Menu -->
@@ -211,6 +229,9 @@ HEADER & NAVIGATION
         <!-- Offcanvas Overlay -->
         <div class="offcanvas-overlay"></div>
 
+<!-- 
+hero section
+-->
         <!-- ...::: Start Hero Section :::... -->
         <div class="hero-section section-dark-blue-bg">
             <div class="hero-wrapper">
@@ -267,6 +288,9 @@ HEADER & NAVIGATION
         </div>
         <!-- ...::: End Hero Section :::... -->
 
+        <!-- 
+            services section
+         -->
         <!-- ...::: Start Service Display Section :::... -->
         <div class="service-display-section section-gap-tb-165 pos-relative">
             <div class="container">
@@ -353,6 +377,9 @@ HEADER & NAVIGATION
         </div>
         <!-- ...::: End Service Display Section :::... -->
 
+<!-- 
+skills section
+-->
         <!-- ...::: Start Skill Display Section :::... -->
         <div class="skill-display-section section-gap-tb-165 section-bg pos-relative">
             <div class="skill-display-section-box">
@@ -422,6 +449,9 @@ HEADER & NAVIGATION
         </div>
         <!-- ...::: End Skill Display Section :::... -->
 
+<!-- 
+counters
+-->
         <!-- ...::: Start Counter Display Section :::... -->
         <div class="counter-display-section section-gap-tb-165 section-bg-2">
             <div class="counter-display-wrapper">
@@ -472,6 +502,9 @@ HEADER & NAVIGATION
         </div>
         <!-- ...::: End Counter Display Section :::... -->
 
+<!-- 
+projects section
+-->
         <!-- ...::: Start Project Display Section :::... -->
         <div class="project-display-section section-gap-tb-165">
             <div class="project-display-box">
@@ -596,6 +629,9 @@ HEADER & NAVIGATION
         </div>
         <!-- ...::: End Project Display Section :::... -->
 
+<!-- 
+testimonials section
+-->
         <!-- ...::: Start Testimonial Display Section :::... -->
         <div class="testimonial-display-section section-gap-tb-165 section-bg">
             <div class="testimonial-display-box d-flex flex-column align-items-center d-xl-block pos-relative">
@@ -709,6 +745,9 @@ HEADER & NAVIGATION
         </div>
         <!-- ...::: End Testimonial Display Section :::... -->
 
+<!-- 
+partners section
+-->
         <!-- ...::: Start Company Logo Display Section :::... -->
         <div class="company-logo-display section-mt-165 ">
             <div class="company-logo-display-box">
@@ -775,6 +814,9 @@ HEADER & NAVIGATION
         </div>
         <!-- ...::: End Company Logo Display Section :::... -->
 
+<!-- 
+blog preview section
+-->
         <!-- ...::: Start Blog Feed Display Section :::... -->
         <div class="blog-feed-display-section section-gap-tb-165">
             <div class="blog-feed-display-box">
@@ -865,6 +907,9 @@ HEADER & NAVIGATION
         </div>
         <!-- ...::: End Blog Feed Display Section :::... -->
 
+<!-- 
+footer section
+-->
         <!-- ...::: Start Footer Section :::... -->
         <footer class="footer-section section-bg overflow-hidden pos-relative">
             <div class="footer-inner-shape-top-left"></div>
@@ -951,10 +996,16 @@ HEADER & NAVIGATION
         </footer>
         <!-- ...::: End Footer Section :::... -->
 
+<!-- 
+scroll top button
+-->
         <!-- material-scrolltop button -->
     <button class="material-scrolltop" type="button"></button>
     </main>
 
+<!-- 
+javascript
+-->
     <!-- Global Vendor, plugins JS -->
 
     <!-- JS Files
