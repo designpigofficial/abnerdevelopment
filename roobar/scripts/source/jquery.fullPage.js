@@ -2680,7 +2680,6 @@
                 showError('warn', 'Option `scrollBar` is mutually exclusive with `continuousVertical`; `continuousVertical` disabled');
             }
 
-            //anchors can not have the same value as any element ID or NAME
             $.each(options.anchors, function(index, name){
 
                 //case insensitive selectors (http://stackoverflow.com/a/19465187/1081396)

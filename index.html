@@ -10,7 +10,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/favicon//apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/favicon//apple-icon-72x72.png">
@@ -28,8 +27,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./assets/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!-- END OF FAVICON -->
-
 
     <!-- Vendor CSS (Contain Bootstrap, Icon Fonts) -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
@@ -50,37 +47,40 @@
     <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
 
     
-    
     <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-          apiKey: "AIzaSyA8c3xJu9G_Y74M_lBxrdIqolH5Zs7Z5Zg",
-          authDomain: "abner-development.firebaseapp.com",
-          projectId: "abner-development",
-          storageBucket: "abner-development.appspot.com",
-          messagingSenderId: "996262872152",
-          appId: "1:996262872152:web:470bd933d2392dc3c0362d",
-          measurementId: "G-BL2MPYMBY7"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-      </script>
-<!-- END OF FIREBASE -->
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+        
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+            apiKey: "AIzaSyA8c3xJu9G_Y74M_lBxrdIqolH5Zs7Z5Zg",
+            authDomain: "abner-development.firebaseapp.com",
+            projectId: "abner-development",
+            storageBucket: "abner-development.appspot.com",
+            messagingSenderId: "996262872152",
+            appId: "1:996262872152:web:470bd933d2392dc3c0362d",
+            measurementId: "G-BL2MPYMBY7"
+            };
+        
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+        </script>
 
 </head>
 
 <body>
 
     <main class="main-wrapper">
+
+<!-- 
+HEADER & NAVIGATION
+=================================================
+-->
         <!-- .....:::::: Start Header Section :::::.... -->
         <header class="header-section sticky-header d-none d-lg-block">
             <div class="header-wrapper">
@@ -96,29 +96,27 @@
                         <div class="col-auto">
                             <!-- Start Header Menu -->
                             <ul class="header-nav">
-                                <li><a href="index.html">Home</a></li>
-
-                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="#">About Us</a></li>
 
                                 <li class="has-dropdown">
-                                    <a href="service-list.html">Service</a>
+                                    <a href="#">Service</a>
                                     <ul class="submenu">
-                                        <li><a href="service-list.html">UX/UI Design</a></li>
-                                        <li><a href="service-list.html">Web Development</a></li>
-                                        <li><a href="service-list.html">Brand Identity</a></li>
-                                        <li><a href="service-list.html">Social Media / Marketing</a></li>                                        
+                                        <li><a href="#">UX/UI Design</a></li>
+                                        <li><a href="#">Web Development</a></li>
+                                        <li><a href="#">Brand Identity</a></li>
+                                        <li><a href="#">Social Media / Marketing</a></li>                                        
                                     </ul>
                                 </li>
 
                                 <li class="has-dropdown">
-                                    <a href="#">Recent Projects</a>
+                                    <a href="#">Projects</a>
                                     <ul class="submenu">
-                                        <li><a href="project-list.html">NSM</a></li>
-                                        <li><a href="project-list.html">Rogue</a></li>
-                                        <li><a href="project-list.html">RooBar</a></li>
+                                        <li><a href="#">NSM</a></li>
+                                        <li><a href="#">Rogue</a></li>
+                                        <li><a href="#">RooBar</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="blog-list.html">Blog</a></li>
+                                <li><a href="#">Blog</a></li>
 
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
@@ -126,7 +124,7 @@
                         </div>
                         <div class="col">
                             <div class="header-btn-link text-end">
-                               <a href="contact.html" class="btn btn-sm btn-outline-one icon-space-left">Hire Me <i class="icofont-double-right"></i></a>
+                                <a href="contact.html" class="btn btn-sm btn-outline-one icon-space-left">Hire Me <i class="icofont-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -167,44 +165,30 @@
                     <!-- Start Mobile Menu Nav -->
                     <div class="offcanvas-menu">
                         <ul>
-                            <li>
-                                <a href="index.html"><span>Home</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Services</span></a>
-                                <ul class="mobile-sub-menu">
-                                    <li><a href="service-list.html">Service List</a></li>
-                                    <!-- <li><a href="service-details.html">Service Details</a></li> --->
+                            <li><a href="#">About Us</a></li>
 
+                            <li class="has-dropdown">
+                                <a href="#">Service</a>
+                                <ul class="submenu">
+                                    <li><a href="#">UX/UI Design</a></li>
+                                    <li><a href="#">Web Development</a></li>
+                                    <li><a href="#">Brand Identity</a></li>
+                                    <li><a href="#">Social Media / Marketing</a></li>                                        
                                 </ul>
                             </li>
-                            <li>
-                                <a href="#"><span>Blog</span></a>
-                                <ul class="mobile-sub-menu">
-                                    <li><a href="blog-list.html">Blog List Full Width</a></li>
-                                    <!-- <li><a href="blog-list-sidebar-left.html">Blog List Left Sidebar</a></li>
-                                    <li><a href="blog-list-sidebar-right.html">Blog List Right Sidebar</a></li>
-                                    <li><a href="blog-details.html">Blog Details Full Width</a></li>
-                                    <li><a href="blog-details-sidebar-left.html">Blog Details Left Sidebar</a></li>
-                                    <li><a href="blog-details-sidebar-right.html">Blog Details Right Sidebar</a></li>
 
+                            <li class="has-dropdown">
+                                <a href="#">Projects</a>
+                                <ul class="submenu">
+                                    <li><a href="#">NSM</a></li>
+                                    <li><a href="#">Rogue</a></li>
+                                    <li><a href="#">RooBar</a></li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="#"><span>Pages</span></a>
-                                <ul class="mobile-sub-menu">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="project-list.html">Project</a></li>
-                                    <!-- <li><a href="project-details.html">Project Details</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="404-page.html">404 Page</a></li>  --->
+                            <li><a href="#">Blog</a></li>
 
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="contact.html"><span>Contact</span></a>
-                            </li>
-                        </ul>
+                            <li><a href="contact.html">Contact</a></li>
+                </ul>
                     </div> <!-- End Mobile Menu Nav -->
                 </div> <!-- End Mobile Menu -->
 
