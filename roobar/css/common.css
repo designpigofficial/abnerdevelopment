@@ -256,8 +256,8 @@ iframe
 a.button
 {
     display: inline-block;
-    color: #e54b76;
-    border: 2px solid #e54b76;
+    color: #1022fe;
+    border: 2px solid #1022fe;
     text-align: center;
     padding-bottom: 15px;
     padding-top: 12px;
@@ -279,7 +279,7 @@ a.button:active
 a.button:hover
 {
     color: white;
-    background-color: #e54b76;
+    background-color: #1022fe;
 }
 
 h1,h2,h3,h4,h5,h6

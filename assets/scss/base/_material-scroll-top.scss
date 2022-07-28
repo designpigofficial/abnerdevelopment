@@ -70,7 +70,7 @@ $mst-icon: true !default; // Set false if you want to use your own sign directly
     content: '';
     width: 0;
     border-radius: 100%;
-    background: mix($mst-color, #fff, 85%);
+    background: mix($mst-color, #eaeaea, 85%);
     @if $mst-icon {
       @extend %mst-icon;
     }
@@ -91,7 +91,7 @@ $mst-icon: true !default; // Set false if you want to use your own sign directly
   span {
     display: block;
     font-size: 25px;
-    color: #fff;
+    color: #eaeaea;
   }
 }
 

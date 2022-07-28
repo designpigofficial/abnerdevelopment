@@ -18,7 +18,7 @@ div.pp_default .pp_bottom .pp_right { height: 13px; }
 div.pp_default .pp_content .ppt { color: #f8f8f8; }
 div.pp_default .pp_content_container .pp_left { padding-left: 13px; }
 div.pp_default .pp_content_container .pp_right { padding-right: 13px; }
-/*div.pp_default .pp_content { background-color: #fff; }*/
+/*div.pp_default .pp_content { background-color: #eaeaea; }*/
 div.pp_default .pp_next:hover { background: url(../images/prettyPhoto/default/sprite_next.png) center right  no-repeat; cursor: pointer; } /* Next button */
 div.pp_default .pp_previous:hover { background: url(../images/prettyPhoto/default/sprite_prev.png) center left no-repeat; cursor: pointer; } /* Previous button */
 div.pp_default .pp_expand { background: url(../images/prettyPhoto/default/sprite.png) 0 -29px no-repeat; cursor: pointer; width: 28px; height: 28px; } /* Expand button */
@@ -30,7 +30,7 @@ div.pp_default #pp_full_res .pp_inline { color: #000; background-color: white; p
 .pp_inline img {max-width: 100%; max-height: 100%; width: auto; height: auto;}
 div.pp_default .pp_gallery ul li a { background: url(../images/prettyPhoto/default/default_thumb.png) center center #f8f8f8; border:1px solid #aaa; }
 div.pp_default .pp_gallery ul li a:hover,
-div.pp_default .pp_gallery ul li.selected a { border-color: #fff; }
+div.pp_default .pp_gallery ul li.selected a { border-color: #eaeaea; }
 div.pp_default .pp_social { margin-top: 7px;}
 
 div.pp_default .pp_gallery a.pp_arrow_previous,
@@ -60,13 +60,13 @@ div.pp_default .pp_loaderIcon { background: url(../images/prettyPhoto/default/lo
 
 
 div.light_rounded .pp_top .pp_left { background: url(../images/prettyPhoto/light_rounded/sprite.png) -88px -53px no-repeat; } /* Top left corner */
-div.light_rounded .pp_top .pp_middle { background: #fff; } /* Top pattern/color */
+div.light_rounded .pp_top .pp_middle { background: #eaeaea; } /* Top pattern/color */
 div.light_rounded .pp_top .pp_right { background: url(../images/prettyPhoto/light_rounded/sprite.png) -110px -53px no-repeat; } /* Top right corner */
 
 div.light_rounded .pp_content .ppt { color: #000; }
 div.light_rounded .pp_content_container .pp_left,
-div.light_rounded .pp_content_container .pp_right { background: #fff; }
-div.light_rounded .pp_content { background-color: #fff; } /* Content background */
+div.light_rounded .pp_content_container .pp_right { background: #eaeaea; }
+div.light_rounded .pp_content { background-color: #eaeaea; } /* Content background */
 div.light_rounded .pp_next:hover { background: url(../images/prettyPhoto/light_rounded/btnNext.png) center right  no-repeat; cursor: pointer; } /* Next button */
 div.light_rounded .pp_previous:hover { background: url(../images/prettyPhoto/light_rounded/btnPrevious.png) center left no-repeat; cursor: pointer; } /* Previous button */
 div.light_rounded .pp_expand { background: url(../images/prettyPhoto/light_rounded/sprite.png) -31px -26px no-repeat; cursor: pointer; } /* Expand button */
@@ -88,7 +88,7 @@ div.light_rounded .pp_arrow_next { background: url(../images/prettyPhoto/light_r
 div.light_rounded .pp_arrow_next.disabled { background-position: -22px -87px; cursor: default; }
 
 div.light_rounded .pp_bottom .pp_left { background: url(../images/prettyPhoto/light_rounded/sprite.png) -88px -80px no-repeat; } /* Bottom left corner */
-div.light_rounded .pp_bottom .pp_middle { background: #fff; } /* Bottom pattern/color */
+div.light_rounded .pp_bottom .pp_middle { background: #eaeaea; } /* Bottom pattern/color */
 div.light_rounded .pp_bottom .pp_right { background: url(../images/prettyPhoto/light_rounded/sprite.png) -110px -80px no-repeat; } /* Bottom right corner */
 
 div.light_rounded .pp_loaderIcon { background: url(../images/prettyPhoto/light_rounded/loader.gif) center center no-repeat; } /* Loader icon */
@@ -114,8 +114,8 @@ div.dark_rounded .pp_close { width: 75px; height: 22px; background: url(../image
 div.dark_rounded .pp_details { position: relative; }
 div.dark_rounded .pp_description { margin-right: 85px; }
 div.dark_rounded .currentTextHolder { color: #c4c4c4; }
-div.dark_rounded .pp_description { color: #fff; }
-div.dark_rounded #pp_full_res .pp_inline { color: #fff; }
+div.dark_rounded .pp_description { color: #eaeaea; }
+div.dark_rounded #pp_full_res .pp_inline { color: #eaeaea; }
 div.dark_rounded .pp_gallery a.pp_arrow_previous,
 div.dark_rounded .pp_gallery a.pp_arrow_next { margin-top: 12px !important; }
 div.dark_rounded .pp_nav .pp_play { background: url(../images/prettyPhoto/dark_rounded/sprite.png) -1px -100px no-repeat; height: 15px; width: 14px; }
@@ -143,7 +143,7 @@ div.dark_square .pp_right,
 div.dark_square .pp_content { background: #000; }
 
 div.dark_square .currentTextHolder { color: #c4c4c4; }
-div.dark_square .pp_description { color: #fff; }
+div.dark_square .pp_description { color: #eaeaea; }
 div.dark_square .pp_loaderIcon { background: url(../images/prettyPhoto/dark_square/loader.gif) center center no-repeat; } /* Loader icon */
 
 div.dark_square .pp_expand { background: url(../images/prettyPhoto/dark_square/sprite.png) -31px -26px no-repeat; cursor: pointer; } /* Expand button */
@@ -153,7 +153,7 @@ div.dark_square .pp_contract:hover { background: url(../images/prettyPhoto/dark_
 div.dark_square .pp_close { width: 75px; height: 22px; background: url(../images/prettyPhoto/dark_square/sprite.png) -1px -1px no-repeat; cursor: pointer; } /* Close button */
 div.dark_square .pp_details { position: relative; }
 div.dark_square .pp_description { margin: 0 85px 0 0; }
-div.dark_square #pp_full_res .pp_inline { color: #fff; }
+div.dark_square #pp_full_res .pp_inline { color: #eaeaea; }
 div.dark_square .pp_gallery a.pp_arrow_previous,
 div.dark_square .pp_gallery a.pp_arrow_next { margin-top: 12px !important; }
 div.dark_square .pp_nav { clear: none; }
@@ -176,7 +176,7 @@ div.dark_square .pp_previous:hover { background: url(../images/prettyPhoto/dark_
 div.light_square .pp_left ,
 div.light_square .pp_middle,
 div.light_square .pp_right,
-div.light_square .pp_content { background: #fff; }
+div.light_square .pp_content { background: #eaeaea; }
 
 div.light_square .pp_content .ppt { color: #000; }
 div.light_square .pp_expand { background: url(../images/prettyPhoto/light_square/sprite.png) -31px -26px no-repeat; cursor: pointer; } /* Expand button */
@@ -214,7 +214,7 @@ div.facebook .pp_top .pp_right { background: url(../images/prettyPhoto/facebook/
 div.facebook .pp_content .ppt { color: #000; }
 div.facebook .pp_content_container .pp_left { background: url(../images/prettyPhoto/facebook/contentPatternLeft.png) top left repeat-y; } /* Content background */
 div.facebook .pp_content_container .pp_right { background: url(../images/prettyPhoto/facebook/contentPatternRight.png) top right repeat-y; } /* Content background */
-div.facebook .pp_content { background: #fff; } /* Content background */
+div.facebook .pp_content { background: #eaeaea; } /* Content background */
 div.facebook .pp_expand { background: url(../images/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat; cursor: pointer; } /* Expand button */
 div.facebook .pp_expand:hover { background: url(../images/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat; cursor: pointer; } /* Expand button hover */
 div.facebook .pp_contract { background: url(../images/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat; cursor: pointer; } /* Contract button */
@@ -395,7 +395,7 @@ a.pp_arrow_next {
 }
 
 .pp_gallery ul a:hover,
-.pp_gallery li.selected a { border-color: #fff; }
+.pp_gallery li.selected a { border-color: #eaeaea; }
 
 .pp_gallery ul a img { border: 0; }
 
@@ -511,7 +511,7 @@ a.pp_close {
 #pp_full_res .pp_inline p { margin: 0 0 15px 0; }
 
 div.ppt {
-    color: #fff;
+    color: #eaeaea;
     display: none !important;
     font-size: 17px;
     margin: 0 0 5px 15px;

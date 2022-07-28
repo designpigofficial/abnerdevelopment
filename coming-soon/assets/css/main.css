@@ -265,7 +265,7 @@ a {
     text-decoration: none; }
 
 strong, b {
-  color: #fff;
+  color: #eaeaea;
   font-weight: 700; }
 
 em, i {
@@ -275,7 +275,7 @@ p {
   margin: 0 0 2em 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #fff;
+  color: #eaeaea;
   font-weight: 700;
   line-height: 1em;
   margin: 0 0 1em 0; }
@@ -488,7 +488,7 @@ form {
         content: '\f119'; }
 
 label {
-  color: #fff;
+  color: #eaeaea;
   display: block;
   font-size: 0.9em;
   font-weight: 700;
@@ -616,7 +616,7 @@ select {
   padding-right: 2.75em;
   text-overflow: ellipsis; }
   select option {
-    color: #fff;
+    color: #eaeaea;
     background: #000; }
   select:focus::-ms-value {
     background-color: transparent; }
@@ -686,7 +686,7 @@ input[type="radio"] {
   input[type="radio"]:checked + label:before {
     background: #1cb495;
     border-color: #1cb495;
-    color: #ffffff;
+    color: #eaeaeaeaeaea;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
@@ -736,7 +736,7 @@ button,
   background-color: #1cb495;
   border-radius: 6px;
   border: 0;
-  color: #ffffff !important;
+  color: #eaeaeaeaeaea !important;
   cursor: pointer;
   display: inline-block;
   font-weight: 700;

@@ -223,7 +223,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #eaeaeaeaeaea;
 		font-weight: 300;
 	}
 
@@ -236,7 +236,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #eaeaeaeaeaea;
 		font-weight: 300;
 		letter-spacing: 0.1em;
 		line-height: 1.5;
@@ -380,7 +380,7 @@ input, select, textarea {
 		border: 0;
 		border-radius: 0;
 		box-shadow: inset 0 0 0 2px #36383c;
-		color: #ffffff !important;
+		color: #eaeaeaeaeaea !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.9em;
@@ -468,7 +468,7 @@ input, select, textarea {
 			button.primary:hover,
 			.button.primary:hover {
 				background-color: #47c5ab;
-				color: #ffffff !important;
+				color: #eaeaeaeaeaea !important;
 			}
 
 				input[type="submit"].primary:hover:active,
@@ -567,7 +567,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #eaeaeaeaeaea;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 300;
@@ -630,7 +630,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #ffffff;
+			color: #eaeaeaeaeaea;
 			background: #242629;
 		}
 
@@ -716,7 +716,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #34a58e;
 			border-color: #34a58e;
-			color: #ffffff;
+			color: #eaeaeaeaeaea;
 			content: '\f00c';
 		}
 
@@ -1011,7 +1011,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #ffffff;
+			color: #eaeaeaeaeaea;
 			font-size: 0.9em;
 			font-weight: 300;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -1283,7 +1283,7 @@ input, select, textarea {
 			}
 
 			.poptrox-popup .caption p {
-				color: #ffffff;
+				color: #eaeaeaeaeaea;
 			}
 
 		.poptrox-popup .loader {
@@ -1529,7 +1529,7 @@ input, select, textarea {
 						-ms-transition: background-color 0.5s ease;
 						transition: background-color 0.5s ease;
 						border: 0;
-						color: #ffffff;
+						color: #eaeaeaeaeaea;
 						display: inline-block;
 						letter-spacing: 0.1em;
 						padding: 0 1.65em;
@@ -1543,7 +1543,7 @@ input, select, textarea {
 						}
 
 						#header nav > ul > li a:hover {
-							color: #ffffff !important;
+							color: #eaeaeaeaeaea !important;
 						}
 
 						#header nav > ul > li a.active {

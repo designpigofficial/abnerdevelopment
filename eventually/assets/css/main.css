@@ -135,7 +135,7 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #fff;
+		background-color: #eaeaea;
 		color: #aaa;
 	}
 
@@ -431,7 +431,7 @@ input, select, textarea {
 
 		select option {
 			color: #555;
-			background: #fff;
+			background: #eaeaea;
 		}
 
 		select:focus::-ms-value {
@@ -553,7 +553,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background-color: #555;
 			border-color: #555;
-			color: #fff;
+			color: #eaeaea;
 			content: '\f00c';
 		}
 
@@ -837,7 +837,7 @@ input, select, textarea {
 		top: 0;
 		width: 22.5em;
 		height: 100%;
-		background: #fff;
+		background: #eaeaea;
 		outline: 0;
 		overflow-x: hidden;
 		overflow-y: auto;
@@ -905,7 +905,7 @@ input, select, textarea {
 				-ms-transition: opacity 0.5s ease, visibility 0.5s;
 				transition: opacity 0.5s ease, visibility 0.5s;
 				width: 100%;
-				background: #fff;
+				background: #eaeaea;
 				text-align: center;
 			}
 
@@ -1207,7 +1207,7 @@ input, select, textarea {
 			}
 
 				#viewer .slide .caption h2, #viewer .slide .caption h3, #viewer .slide .caption h4, #viewer .slide .caption h5, #viewer .slide .caption h6 {
-					color: #fff;
+					color: #eaeaea;
 				}
 
 			#viewer .slide .image {

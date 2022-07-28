@@ -32,7 +32,7 @@
 	$palette: (
 		bg:					#000,
 		fg:					rgba(255,255,255,0.75),
-		fg-bold:			#fff,
+		fg-bold:			#eaeaea,
 		fg-light:			rgba(255,255,255,0.5),
 		border:				rgba(255,255,255,0.35),
 		border-bg:			rgba(255,255,255,0.125),
@@ -40,20 +40,20 @@
 
 		accent: (
 			bg:				#1cb495,
-			fg:				mix(#1cb495, #ffffff, 25%),
-			fg-bold:		#ffffff,
-			fg-light:		mix(#1cb495, #ffffff, 40%),
+			fg:				mix(#1cb495, #eaeaeaeaeaea, 25%),
+			fg-bold:		#eaeaeaeaeaea,
+			fg-light:		mix(#1cb495, #eaeaeaeaeaea, 40%),
 			border:			rgba(255,255,255,0.25),
 			border-bg:		rgba(255,255,255,0.075),
 		),
 
 		positive: (
 			bg:				#1cb495,
-			fg:				#ffffff
+			fg:				#eaeaeaeaeaea
 		),
 
 		negative: (
 			bg:				#ff2361,
-			fg:				#ffffff
+			fg:				#eaeaeaeaeaea
 		)
 	);

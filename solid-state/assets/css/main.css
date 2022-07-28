@@ -101,9 +101,12 @@ input, select, textarea {
 	body {
 		background-color: #2e3141;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-		background-size: auto, cover;
-		background-attachment: fixed, fixed;
-		background-position: center, center;
+		background-size: auto,
+ cover;
+		background-attachment: fixed,
+ fixed;
+		background-position: center,
+ center;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -117,7 +120,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-/* Type */
+/* Type */eaeaeaeaeaea
 
 	body, input, select, textarea {
 		color: #ffffff;
@@ -170,13 +173,13 @@ input, select, textarea {
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-ms-traneaeaeaeaeaea: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 		color: #ffffff;
 		text-decoration: none;
 	}
-
+eaeaeaeaeaea
 		a:hover {
 			border-bottom-color: transparent;
 			color: #ffffff !important;
@@ -232,7 +235,7 @@ input, select, textarea {
 
 			a.special:not(.button):active:before {
 				background-color: rgba(255, 255, 255, 0.075);
-			}
+			}eaeaeaeaeaea
 
 	strong, b {
 		color: #ffffff;
@@ -245,7 +248,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
-	}
+	}eaeaeaeaeaea
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
@@ -2159,7 +2162,7 @@ input, select, textarea {
 						width: calc(100% - 1.5em);
 					}
 
-		}
+		}eaeaeaeaeaea
 
 	label {
 		color: #ffffff;
@@ -2220,7 +2223,7 @@ input, select, textarea {
 		height: 2.75em;
 		padding-right: 2.75em;
 		text-overflow: ellipsis;
-	}
+	}eaeaeaeaeaea
 
 		select option {
 			color: #ffffff;
@@ -2260,7 +2263,7 @@ input, select, textarea {
 		z-index: -1;
 	}
 
-		input[type="checkbox"] + label,
+		input[typeaeaeaeaeaeackbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
 			color: #ffffff;
@@ -2306,8 +2309,8 @@ input, select, textarea {
 				top: 0;
 				width: 2.0625em;
 			}
-
-		input[type="checkbox"]:checked + label:before,
+eaeaeaeaeaea
+		input[type="checeaeaeaeaeaea:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
@@ -2801,7 +2804,7 @@ input, select, textarea {
 
 		table td {
 			padding: 0.75em 0.75em;
-		}
+		}eaeaeaeaeaea
 
 		table th {
 			color: #ffffff;
@@ -2861,7 +2864,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
 		background-color: transparent;
-		border-radius: 5px;
+		border-reaeaeaeaeaea 5px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
 		color: #ffffff !important;
@@ -3464,8 +3467,10 @@ input, select, textarea {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-				background-size: auto, cover;
-				background-position: center, center;
+				background-size: auto,
+ cover;
+				background-position: center,
+ center;
 				margin-bottom: -6.5em;
 			}
 
@@ -3574,8 +3579,10 @@ input, select, textarea {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, 0% 30%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 30%;
 			margin-bottom: -6.5em;
 		}
 
@@ -3585,8 +3592,10 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 11em 3em 7.375em 3em ;
-			background-size: auto, cover;
-			background-position: center, 0% 0%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 0%;
 			margin-bottom: -4.75em;
 		}
 
@@ -3600,7 +3609,8 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto, 125%;
+			background-size: auto,
+ 125%;
 			margin-bottom: -2.5em;
 		}
 
@@ -4062,8 +4072,10 @@ input, select, textarea {
 		#footer {
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, center;
+			background-size: auto,
+ cover;
+			background-position: center,
+ center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
