@@ -255,18 +255,54 @@ body a:hover
 
 /* HOME SECTION */
 
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  /*
 .intro-page 
 {
     padding-bottom: 170px;
     min-height: calc(100vh - 170px);
     background-color: #221c5a; 
-    background-image:url(demo-images/background_img_01b.jpg); 
+    background-image:url(images/hero.png); 
     background-repeat: repeat; 
     background-position: center top; 
     background-size: cover;
     z-index: 10;
 }
-
+*/
 .top-logo
 {
     width: 160px !important;    
@@ -356,6 +392,7 @@ h1.big-title
 {
     font-family: 'Montserrat', sans-serif; 
     font-size: 24px;
+    font-style: uppercase;
     padding-bottom: 10px;
 }
 
